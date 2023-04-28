@@ -10,5 +10,11 @@ public class MyLinkedListStack<T> {
 
     public void push(T element) {
         list.addFirst(element);
+    }
+    // Removes and returns the top element of the stack
+    public T pop() {
+
+
+    }
 }
 
