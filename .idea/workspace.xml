@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="1.Created new class named MyLinkedListStack for the MyLinkedList implementation" />
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +31,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682438486242</updated>
       <workItem from="1682438487570" duration="742000" />
+      <workItem from="1682685352185" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -58,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682441470804</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions">
+      <created>1682685464646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682685464646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,6 +78,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.Created new class named MyLinkedListStack for the MyLinkedList implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Created new class named MyLinkedListStack for the MyLinkedList implementation" />
+    <MESSAGE value="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions" />
   </component>
 </project>
