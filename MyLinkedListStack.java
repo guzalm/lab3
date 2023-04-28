@@ -5,7 +5,9 @@ public class MyLinkedListStack<T> {
     //Initialize the instance variable "list"
     public MyLinkedListStack() {
         list = new MyLinkedList<>();
-
     }
+    // Adds an element to the top of the stack
+    public void push(T element) {
+        list.addFirst(element);
 }
 

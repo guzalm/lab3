@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="3.I declared an instance variable &quot;list&quot;">
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="4.There was created a constructor for the class and initialize the instance variable &quot;list&quot;&#10;inside MyLinkedListStack() by using &quot;new&quot; operator.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyLinkedListStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682438486242</updated>
       <workItem from="1682438487570" duration="742000" />
-      <workItem from="1682685352185" duration="696000" />
+      <workItem from="1682685352185" duration="2086000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682685917244</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4.There was created a constructor for the class and initialize the instance variable &quot;list&quot;&#10;inside MyLinkedListStack() by using &quot;new&quot; operator.">
+      <created>1682686212067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682686212067</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +100,7 @@
     <MESSAGE value="1.Created new class named MyLinkedListStack for the MyLinkedList implementation" />
     <MESSAGE value="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions" />
     <MESSAGE value="3.I declared an instance variable &quot;list&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.I declared an instance variable &quot;list&quot;" />
+    <MESSAGE value="4.There was created a constructor for the class and initialize the instance variable &quot;list&quot;&#10;inside MyLinkedListStack() by using &quot;new&quot; operator." />
+    <option name="LAST_COMMIT_MESSAGE" value="4.There was created a constructor for the class and initialize the instance variable &quot;list&quot;&#10;inside MyLinkedListStack() by using &quot;new&quot; operator." />
   </component>
 </project>
