@@ -13,8 +13,9 @@ public class MyLinkedListStack<T> {
     }
     // Removes and returns the top element of the stack
     public T pop() {
-
-
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
     }
 }
 
