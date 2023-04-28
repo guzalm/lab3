@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions" />
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="3.I declared an instance variable &quot;list&quot;">
+      <change beforePath="$PROJECT_DIR$/MyLinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyLinkedListStack.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682438486242</updated>
       <workItem from="1682438487570" duration="742000" />
-      <workItem from="1682685352185" duration="396000" />
+      <workItem from="1682685352185" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -70,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682685464646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3.I declared an instance variable &quot;list&quot;">
+      <created>1682685917244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682685917244</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +91,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.Created new class named MyLinkedListStack for the MyLinkedList implementation" />
     <MESSAGE value="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions" />
+    <MESSAGE value="3.I declared an instance variable &quot;list&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.I declared an instance variable &quot;list&quot;" />
   </component>
 </project>
