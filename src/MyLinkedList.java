@@ -54,4 +54,26 @@ public class MyLinkedList<T> {
     public boolean isEmpty() {
         return head == null;
     }
+    public void addLast(T data) {
+        // create a new node with the given data
+        Node<T> newNode = new Node<>(data);
+
+        // if the list is empty, set the new node as the head and tail
+        Node<T> tail = null;
+        if (isEmpty()) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            // otherwise, add the new node after the tail and update the tail
+            tail.next = newNode;
+            tail = newNode;
+        }
+
+        // increase the size of the list
+        size++;
+    }
+   
+
+
+
 }
