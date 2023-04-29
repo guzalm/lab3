@@ -37,3 +37,5 @@ STEP 17: I implemented the dequeue method that removes and returns the front ele
 STEP 18: Here is an implementation of the peek method that returns the front element of the queue without removing it using the getFirst method for MyLinkedList.  
 
 STEP 19: Implement the isEmpty method that returns true if the queue is empty or false if it is not using the isEmpty method for MyLinkedList.
+  
+STEP 20: Then I implemented the size method that returns the number of elements in the queue using the size method for MyLinkedList.
