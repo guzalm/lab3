@@ -19,3 +19,5 @@ STEP 9: I added the peek method that returns the top element of the stack withou
 There is exception which works if stack is empty, If not, it calls getFirst() method.
 
 STEP 10:  Here's the isEmpty() method implemented using the isEmpty() method of MyLinkedList to check if the stack is empty or not
+
+STEP 11: I created the size() method simply calls the size() method of MyLinkedList and returns its result.
