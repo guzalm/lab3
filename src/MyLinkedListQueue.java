@@ -25,4 +25,8 @@ public class MyLinkedListQueue<T> {
         }
         return list.getFirst();
     }
+    // Returns true if the queue is empty or false if it is not
+    public boolean isEmpty() {
+        return list.isEmpty();
+    }
 }
