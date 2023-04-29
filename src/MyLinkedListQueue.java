@@ -18,4 +18,11 @@ public class MyLinkedListQueue<T> {
         }
         return list.removeFirst();
     }
+    // Returns the front element of the queue without removing it
+    public T peek() throws EmptyStackException {
+        if (list.isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return list.getFirst();
+    }
 }
