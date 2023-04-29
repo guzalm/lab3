@@ -29,3 +29,5 @@ STEP 13: There was imported the necessary classes: java.util.NoSuchElementExcept
 STEP 14: Declared an instance variable of type MyLinkedList inside the class. I used private variable "list".
   
 STEP 15: Created a constructor for the class and initialize the instance variable "list" by using new.
+  
+STEP 16: I implemented the enqueue method that adds an element to the back of the queue using the addLast method for MyLinkedList.
