@@ -1,3 +1,4 @@
+import java.util.EmptyStackException;
 import java.util.NoSuchElementException;
 public class MyLinkedListQueue<T> {
     // Declaration of instance variable "list"
@@ -9,5 +10,12 @@ public class MyLinkedListQueue<T> {
     // Adds an element to the back of the queue
     public void enqueue(T element) {
         list.addLast(element);
+    }
+    // Removes and returns the front element of the queue
+    public T dequeue() throws EmptyStackException {
+        if (list.isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return list.removeFirst();
     }
 }
