@@ -33,3 +33,5 @@ STEP 15: Created a constructor for the class and initialize the instance variabl
 STEP 16: I implemented the enqueue method that adds an element to the back of the queue using the addLast method for MyLinkedList.
   
 STEP 17: I implemented the dequeue method that removes and returns the front element of the queue using the removeFirst method for MyLinkedList. I used emptystackexception to throw if list is empty, if not, it returns method removeFirst() from mylinkedlist class.  
+  
+STEP 18: Here is an implementation of the peek method that returns the front element of the queue without removing it using the getFirst method for MyLinkedList.  Also, it has exception as previous methods and if everything works, it returns getFirst() method from another class.
