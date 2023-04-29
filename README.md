@@ -25,3 +25,5 @@ STEP 11: I created the size() method simply calls the size() method of MyLinkedL
 STEP 12: I just created new class MyLinkedListQueue<T> for the MyLinkedList implementation
 
 STEP 13: There was imported the necessary classes: java.util.NoSuchElementException for the queue exceptions, and MyLinkedList
+
+STEP 14: Declared an instance variable of type MyLinkedList inside the class. I used private variable "list".
