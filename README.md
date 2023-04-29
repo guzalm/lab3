@@ -17,3 +17,5 @@ STEP 8: Then I add return statement, which will remove first(top) element from s
 
 STEP 9: I added the peek method that returns the top element of the stack without removing it using the getFirst method for MyLinkedList.
 There is exception which works if stack is empty, If not, it calls getFirst() method.
+
+STEP 10:  Here's the isEmpty() method implemented using the isEmpty() method of MyLinkedList to check if the stack is empty or not
