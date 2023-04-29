@@ -12,10 +12,11 @@ public class MyLinkedListStack<T> {
         list.addFirst(element);
     }
     // Removes and returns the top element of the stack
-    public T pop() {
-        if (isEmpty()) {
+    public T pop() throws EmptyStackException {
+        if (list.isEmpty()) {
             throw new EmptyStackException();
         }
+        return list.removeFirst();
     }
 }
 
