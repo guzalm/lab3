@@ -39,3 +39,6 @@ STEP 18: Here is an implementation of the peek method that returns the front ele
 STEP 19: Implement the isEmpty method that returns true if the queue is empty or false if it is not using the isEmpty method for MyLinkedList.
   
 STEP 20: Then I implemented the size method that returns the number of elements in the queue using the size method for MyLinkedList.
+  
+STEP 21:The size() method is a common method found in many data structures, including linked lists. It is used to return the number of elements currently stored in the data structure.
+In the case of the MyLinkedList class, the size() method simply returns the size instance variable, which keeps track of the number of elements currently stored in the linked list.
