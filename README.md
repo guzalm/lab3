@@ -12,3 +12,5 @@ STEP 5:To implement the push method that adds an element to the top of the stack
 STEP 6: Here I created new method pop(), which will removes and returns the top element of the stack using the removeFirst method for MyLinkedList.
   
 STEP 7: Next step was creating if statement. Which means, if our stack does not have any elements, there will be exception as EmptyStackException() which will be thrown by program.
+
+STEP 8: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty.
