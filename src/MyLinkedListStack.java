@@ -25,5 +25,9 @@ public class MyLinkedListStack<T> {
         }
         return list.getFirst();
     }
+    // Returns true if the stack is empty or false if it is not
+    public boolean isEmpty() {
+        return list.isEmpty();
+    }
 }
 
