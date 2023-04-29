@@ -14,3 +14,6 @@ STEP 6: Here I created new method pop(), which will removes and returns the top 
 STEP 7: Next step was creating if statement. Which means, if our stack does not have any elements, there will be exception as EmptyStackException() which will be thrown by program.
 
 STEP 8: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty.
+
+STEP 9: I added the peek method that returns the top element of the stack without removing it using the getFirst method for MyLinkedList.
+There is exception which works if stack is empty, If not, it calls getFirst() method.
