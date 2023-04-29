@@ -27,3 +27,5 @@ STEP 12: I just created new class MyLinkedListQueue<T> for the MyLinkedList impl
 STEP 13: There was imported the necessary classes: java.util.NoSuchElementException for the queue exceptions, and MyLinkedList
 
 STEP 14: Declared an instance variable of type MyLinkedList inside the class. I used private variable "list".
+  
+STEP 15: Created a constructor for the class and initialize the instance variable "list" by using new.
