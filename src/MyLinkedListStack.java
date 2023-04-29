@@ -25,6 +25,10 @@ public class MyLinkedListStack<T> {
         }
         return list.getFirst();
     }
+    // Returns the number of elements in the stack
+    public int size() {
+        return list.size();
+    }
     // Returns true if the stack is empty or false if it is not
     public boolean isEmpty() {
         return list.isEmpty();
