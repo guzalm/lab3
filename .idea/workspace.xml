@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="6. Here I created new method pop(), which will removes and returns the top element of the stack using the removeFirst method for MyLinkedList">
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 6: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyLinkedListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "19",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +56,7 @@
       <updated>1682438486242</updated>
       <workItem from="1682438487570" duration="742000" />
       <workItem from="1682685352185" duration="3648000" />
+      <workItem from="1682751993153" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -111,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682690470244</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="STEP 6: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty.">
+      <created>1682752318627</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682752318627</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +134,7 @@
     <MESSAGE value="4.There was created a constructor for the class and initialize the instance variable &quot;list&quot;&#10;inside MyLinkedListStack() by using &quot;new&quot; operator." />
     <MESSAGE value="5.To implement the push method that adds an element to the top of the stack using the addFirst method for MyLinkedList in the MyLinkedListStack class, I added the code, by using the push() method takes an element of type T and adds it to the top of the stack using the addFirst() method of the list object." />
     <MESSAGE value="6. Here I created new method pop(), which will removes and returns the top element of the stack using the removeFirst method for MyLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="6. Here I created new method pop(), which will removes and returns the top element of the stack using the removeFirst method for MyLinkedList" />
+    <MESSAGE value="STEP 6: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty." />
+    <option name="LAST_COMMIT_MESSAGE" value="STEP 6: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty." />
   </component>
 </project>
