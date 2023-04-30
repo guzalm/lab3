@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 25: After adding element to queue, I reasked the system is queue is empty or not by isEmpty method, and answer is &quot;false&quot;, because queue has an element." />
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +57,7 @@
       <workItem from="1682438487570" duration="742000" />
       <workItem from="1682685352185" duration="3648000" />
       <workItem from="1682751993153" duration="3806000" />
-      <workItem from="1682867850123" duration="1383000" />
+      <workItem from="1682867850123" duration="1998000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -238,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682869235243</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1.">
+      <created>1682869394964</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1682869394964</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +279,7 @@
     <MESSAGE value="STEP 23: In main I started checking methods of MyLinkedListQueue class. First one is &quot;isEmpty&quot; method. When we check is queue isEmpty, system prints &quot;true&quot; message, because we did not add anything to our queue." />
     <MESSAGE value="STEP 24: To empty queue I added 3 elements by enqueue method to check is other methods work as size, dequeue, peek" />
     <MESSAGE value="STEP 25: After adding element to queue, I reasked the system is queue is empty or not by isEmpty method, and answer is &quot;false&quot;, because queue has an element." />
-    <option name="LAST_COMMIT_MESSAGE" value="STEP 25: After adding element to queue, I reasked the system is queue is empty or not by isEmpty method, and answer is &quot;false&quot;, because queue has an element." />
+    <MESSAGE value="STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1." />
   </component>
 </project>
