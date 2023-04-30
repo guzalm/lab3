@@ -20,6 +20,13 @@ public class Main {
         System.out.println("Start checking STACK:");
         MyLinkedListStack<Double> stack = new MyLinkedListStack<>();
         System.out.println("Is STACK empty? " +stack.isEmpty());//prints true
+        //Add elements
+        stack.push(1.0);
+        stack.push(2.0);
+        stack.push(3.0);
+        stack.push(4.0);
+        //Checking size after adding
+        System.out.println(stack.size());//print 4
 
 
     }

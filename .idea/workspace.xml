@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 28: To check dequeue method we used it and removed the first element from queue. To see the result, we also used peek() method and saw that second element is on the top now, because first was removed.">
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <workItem from="1682438487570" duration="742000" />
       <workItem from="1682685352185" duration="3648000" />
       <workItem from="1682751993153" duration="3806000" />
-      <workItem from="1682867850123" duration="3240000" />
+      <workItem from="1682867850123" duration="3580000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -261,14 +261,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682870377257</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything">
+      <created>1682871303950</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1682871303950</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.I declared an instance variable &quot;list&quot;" />
     <MESSAGE value="4.There was created a constructor for the class and initialize the instance variable &quot;list&quot;&#10;inside MyLinkedListStack() by using &quot;new&quot; operator." />
     <MESSAGE value="5.To implement the push method that adds an element to the top of the stack using the addFirst method for MyLinkedList in the MyLinkedListStack class, I added the code, by using the push() method takes an element of type T and adds it to the top of the stack using the addFirst() method of the list object." />
     <MESSAGE value="6. Here I created new method pop(), which will removes and returns the top element of the stack using the removeFirst method for MyLinkedList" />
@@ -293,6 +299,7 @@
     <MESSAGE value="STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1." />
     <MESSAGE value="STEP 27: I added second element which is 2, and after used peek() method to check which element is in the top. System prints 1, because due to queue and LILO, first added element is in the top." />
     <MESSAGE value="STEP 28: To check dequeue method we used it and removed the first element from queue. To see the result, we also used peek() method and saw that second element is on the top now, because first was removed." />
-    <option name="LAST_COMMIT_MESSAGE" value="STEP 28: To check dequeue method we used it and removed the first element from queue. To see the result, we also used peek() method and saw that second element is on the top now, because first was removed." />
+    <MESSAGE value="STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything" />
+    <option name="LAST_COMMIT_MESSAGE" value="STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything" />
   </component>
 </project>
