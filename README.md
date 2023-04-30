@@ -44,3 +44,5 @@ STEP 21:The size() method is a common method found in many data structures, incl
 In the case of the MyLinkedList class, the size() method simply returns the size instance variable, which keeps track of the number of elements currently stored in the linked list.
 
 STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable "queue".
+
+STEP 23: In main I started checking methods of MyLinkedListQueue class. First one is "isEmpty" method. When we check is queue isEmpty, system prints "true" message, because we did not add anything to our queue.
