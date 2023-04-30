@@ -54,3 +54,7 @@ STEP 25: After adding element to queue, I reasked the system is queue is empty o
 STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1.
   
 STEP 27: I added second element which is 2, and after used peek() method to check which element is in the top. System prints 1, because due to queue and LILO, first added element is in the top.
+  
+STEP 28: To check dequeue method we used it and removed the first element from queue. To see the result, we also used peek() method and saw that second element is on the top now, because first was removed.
+
+STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything
