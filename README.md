@@ -62,3 +62,5 @@ STEP 29: Started to check is stack is empty by method isEmpty(). It prints true,
 STEP 30: Here I check two methods push() and size(). Firstly, I added 4 elements to stack and checked the size. It prints 4, what says that methods work.
   
 STEP 31: I checked peek() method. It shows the top element in the stack. Beside to queue, the top element is here that one, which added the later(4).
+  
+STEP 32: I called pop() method which removes the top element, it removed element-4.0. After I recall peek() method to see what is on top, after removing 4.0, it prints next element 3.0
