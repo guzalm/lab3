@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable &quot;queue&quot;.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 23: In main I started checking methods of MyLinkedListQueue class. First one is &quot;isEmpty&quot; method. When we check is queue isEmpty, system prints &quot;true&quot; message, because we did not add anything to our queue." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,7 @@
       <workItem from="1682438487570" duration="742000" />
       <workItem from="1682685352185" duration="3648000" />
       <workItem from="1682751993153" duration="3806000" />
-      <workItem from="1682867850123" duration="316000" />
+      <workItem from="1682867850123" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682755717701</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="STEP 23: In main I started checking methods of MyLinkedListQueue class. First one is &quot;isEmpty&quot; method. When we check is queue isEmpty, system prints &quot;true&quot; message, because we did not add anything to our queue.">
+      <created>1682868418427</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1682868418427</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +252,7 @@
     <MESSAGE value="STEP 20: Then I implemented the size method that returns the number of elements in the queue using the size method for MyLinkedList." />
     <MESSAGE value="STEP 21:The size() method is a common method found in many data structures, including linked lists. It is used to return the number of elements currently stored in the data structure.&#10;        &#10; In the case of the MyLinkedList class, the size() method simply returns the size instance variable, which keeps track of the number of elements currently stored in the linked list." />
     <MESSAGE value="STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable &quot;queue&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable &quot;queue&quot;." />
+    <MESSAGE value="STEP 23: In main I started checking methods of MyLinkedListQueue class. First one is &quot;isEmpty&quot; method. When we check is queue isEmpty, system prints &quot;true&quot; message, because we did not add anything to our queue." />
+    <option name="LAST_COMMIT_MESSAGE" value="STEP 23: In main I started checking methods of MyLinkedListQueue class. First one is &quot;isEmpty&quot; method. When we check is queue isEmpty, system prints &quot;true&quot; message, because we did not add anything to our queue." />
   </component>
 </project>
