@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 6: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty.">
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable &quot;queue&quot;.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyLinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/acer/Downloads/RegistrationApp2/src/main/resources/com/example/registrationapp2/ass3ads",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,7 +55,8 @@
       <updated>1682438486242</updated>
       <workItem from="1682438487570" duration="742000" />
       <workItem from="1682685352185" duration="3648000" />
-      <workItem from="1682751993153" duration="746000" />
+      <workItem from="1682751993153" duration="3806000" />
+      <workItem from="1682867850123" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -121,7 +121,105 @@
       <option name="project" value="LOCAL" />
       <updated>1682752318627</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="STEP 9: I added the peek method that returns the top element of the stack without removing it using the getFirst method for MyLinkedList.&#10;There is exception which works if stack is empty, If not, it calls getFirst() method.">
+      <created>1682752984030</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682752984030</updated>
+    </task>
+    <task id="LOCAL-00011" summary="STEP 10:  Here's the isEmpty() method implemented using the isEmpty() method of MyLinkedList to check if the stack is empty or not">
+      <created>1682753194208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682753194208</updated>
+    </task>
+    <task id="LOCAL-00012" summary="STEP 11: I created the size() method simply calls the size() method of MyLinkedList and returns its result.">
+      <created>1682753344378</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682753344378</updated>
+    </task>
+    <task id="LOCAL-00013" summary="STEP 12: I just created new class MyLinkedListQueue&lt;T&gt; for the MyLinkedList implementation">
+      <created>1682753591168</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682753591168</updated>
+    </task>
+    <task id="LOCAL-00014" summary="STEP 13: There was imported the necessary classes: java.util.NoSuchElementException for the queue exceptions, and MyLinkedList">
+      <created>1682753713824</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682753713824</updated>
+    </task>
+    <task id="LOCAL-00015" summary="STEP 14: Declared an instance variable of type MyLinkedList inside the class. I used private variable &quot;list&quot;.">
+      <created>1682753848514</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682753848514</updated>
+    </task>
+    <task id="LOCAL-00016" summary="STEP 15: Created a constructor for the class and initialize the instance variable &quot;list&quot; by using new.">
+      <created>1682753988545</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682753988545</updated>
+    </task>
+    <task id="LOCAL-00017" summary="STEP 16: I implemented the enqueue method that adds an element to the back of the queue using the addLast method for MyLinkedList.">
+      <created>1682754222887</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754222887</updated>
+    </task>
+    <task id="LOCAL-00018" summary="STEP 17: I implemented the dequeue method that removes and returns the front element of the queue using the removeFirst method for MyLinkedList. I used emptystackexception to throw if list is empty, if not, it returns method removeFirst() from mylinkedlist class.">
+      <created>1682754415204</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754415204</updated>
+    </task>
+    <task id="LOCAL-00019" summary="STEP 18: Here is an implementation of the peek method that returns the front element of the queue without removing it using the getFirst method for MyLinkedList.  Also, it has exception as previous methods and if everything works, it returns getFirst() method from another class.">
+      <created>1682754637780</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754637780</updated>
+    </task>
+    <task id="LOCAL-00020" summary="STEP 19: Implement the isEmpty method that returns true if the queue is empty or false if it is not using the isEmpty method for MyLinkedList">
+      <created>1682754786554</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754786554</updated>
+    </task>
+    <task id="LOCAL-00021" summary="STEP 20: Then I implemented the size method that returns the number of elements in the queue using the size method for MyLinkedList.">
+      <created>1682754952170</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754952170</updated>
+    </task>
+    <task id="LOCAL-00022" summary="STEP 21:The size() method is a common method found in many data structures, including linked lists. It is used to return the number of elements currently stored in the data structure.&#10;        &#10; In the case of the MyLinkedList class, the size() method simply returns the size instance variable, which keeps track of the number of elements currently stored in the linked list.">
+      <created>1682755144312</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682755144312</updated>
+    </task>
+    <task id="LOCAL-00023" summary="STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable &quot;queue&quot;.">
+      <created>1682755717701</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682755717701</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +233,20 @@
     <MESSAGE value="5.To implement the push method that adds an element to the top of the stack using the addFirst method for MyLinkedList in the MyLinkedListStack class, I added the code, by using the push() method takes an element of type T and adds it to the top of the stack using the addFirst() method of the list object." />
     <MESSAGE value="6. Here I created new method pop(), which will removes and returns the top element of the stack using the removeFirst method for MyLinkedList" />
     <MESSAGE value="STEP 6: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty." />
-    <option name="LAST_COMMIT_MESSAGE" value="STEP 6: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty." />
+    <MESSAGE value="STEP 9: I added the peek method that returns the top element of the stack without removing it using the getFirst method for MyLinkedList.&#10;There is exception which works if stack is empty, If not, it calls getFirst() method." />
+    <MESSAGE value="STEP 10:  Here's the isEmpty() method implemented using the isEmpty() method of MyLinkedList to check if the stack is empty or not" />
+    <MESSAGE value="STEP 11: I created the size() method simply calls the size() method of MyLinkedList and returns its result." />
+    <MESSAGE value="STEP 12: I just created new class MyLinkedListQueue&lt;T&gt; for the MyLinkedList implementation" />
+    <MESSAGE value="STEP 13: There was imported the necessary classes: java.util.NoSuchElementException for the queue exceptions, and MyLinkedList" />
+    <MESSAGE value="STEP 14: Declared an instance variable of type MyLinkedList inside the class. I used private variable &quot;list&quot;." />
+    <MESSAGE value="STEP 15: Created a constructor for the class and initialize the instance variable &quot;list&quot; by using new." />
+    <MESSAGE value="STEP 16: I implemented the enqueue method that adds an element to the back of the queue using the addLast method for MyLinkedList." />
+    <MESSAGE value="STEP 17: I implemented the dequeue method that removes and returns the front element of the queue using the removeFirst method for MyLinkedList. I used emptystackexception to throw if list is empty, if not, it returns method removeFirst() from mylinkedlist class." />
+    <MESSAGE value="STEP 18: Here is an implementation of the peek method that returns the front element of the queue without removing it using the getFirst method for MyLinkedList.  Also, it has exception as previous methods and if everything works, it returns getFirst() method from another class." />
+    <MESSAGE value="STEP 19: Implement the isEmpty method that returns true if the queue is empty or false if it is not using the isEmpty method for MyLinkedList" />
+    <MESSAGE value="STEP 20: Then I implemented the size method that returns the number of elements in the queue using the size method for MyLinkedList." />
+    <MESSAGE value="STEP 21:The size() method is a common method found in many data structures, including linked lists. It is used to return the number of elements currently stored in the data structure.&#10;        &#10; In the case of the MyLinkedList class, the size() method simply returns the size instance variable, which keeps track of the number of elements currently stored in the linked list." />
+    <MESSAGE value="STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable &quot;queue&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable &quot;queue&quot;." />
   </component>
 </project>
