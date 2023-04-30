@@ -31,6 +31,10 @@ public class Main {
         //Return the top element of the stack
         System.out.println("The top element: "+stack.peek());
 
+        //remove the top element
+        stack.pop();
+        System.out.println("The top element after removing the top element: "+stack.peek());
+
 
     }
 }

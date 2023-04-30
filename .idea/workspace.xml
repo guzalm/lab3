@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 31: I checked peek() method. It shows the top element in the stack. Beside to queue, the top element is here that one, which added the later(4)." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,7 @@
       <workItem from="1682438487570" duration="742000" />
       <workItem from="1682685352185" duration="3648000" />
       <workItem from="1682751993153" duration="3806000" />
-      <workItem from="1682867850123" duration="3580000" />
+      <workItem from="1682867850123" duration="3995000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -268,15 +266,27 @@
       <option name="project" value="LOCAL" />
       <updated>1682871303950</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="STEP 30: Here I check two methods push() and size(). Firstly, I added 4 elements to stack and checked the size. It prints 4, what says that methods work.">
+      <created>1682871660652</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1682871660652</updated>
+    </task>
+    <task id="LOCAL-00032" summary="STEP 31: I checked peek() method. It shows the top element in the stack. Beside to queue, the top element is here that one, which added the later(4).">
+      <created>1682871859229</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1682871859229</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4.There was created a constructor for the class and initialize the instance variable &quot;list&quot;&#10;inside MyLinkedListStack() by using &quot;new&quot; operator." />
-    <MESSAGE value="5.To implement the push method that adds an element to the top of the stack using the addFirst method for MyLinkedList in the MyLinkedListStack class, I added the code, by using the push() method takes an element of type T and adds it to the top of the stack using the addFirst() method of the list object." />
     <MESSAGE value="6. Here I created new method pop(), which will removes and returns the top element of the stack using the removeFirst method for MyLinkedList" />
     <MESSAGE value="STEP 6: Then I add return statement, which will remove first(top) element from stack. It works if list is not empty." />
     <MESSAGE value="STEP 9: I added the peek method that returns the top element of the stack without removing it using the getFirst method for MyLinkedList.&#10;There is exception which works if stack is empty, If not, it calls getFirst() method." />
@@ -300,6 +310,8 @@
     <MESSAGE value="STEP 27: I added second element which is 2, and after used peek() method to check which element is in the top. System prints 1, because due to queue and LILO, first added element is in the top." />
     <MESSAGE value="STEP 28: To check dequeue method we used it and removed the first element from queue. To see the result, we also used peek() method and saw that second element is on the top now, because first was removed." />
     <MESSAGE value="STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything" />
-    <option name="LAST_COMMIT_MESSAGE" value="STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything" />
+    <MESSAGE value="STEP 30: Here I check two methods push() and size(). Firstly, I added 4 elements to stack and checked the size. It prints 4, what says that methods work." />
+    <MESSAGE value="STEP 31: I checked peek() method. It shows the top element in the stack. Beside to queue, the top element is here that one, which added the later(4)." />
+    <option name="LAST_COMMIT_MESSAGE" value="STEP 31: I checked peek() method. It shows the top element in the stack. Beside to queue, the top element is here that one, which added the later(4)." />
   </component>
 </project>
