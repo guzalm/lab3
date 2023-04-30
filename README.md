@@ -47,4 +47,6 @@ STEP 22: To my project I added Main class to check other 2 created classes. Firs
 
 STEP 23: In main I started checking methods of MyLinkedListQueue class. First one is "isEmpty" method. When we check is queue isEmpty, system prints "true" message, because we did not add anything to our queue.
   
-STEP 24: To empty queue I added 3 elements by enqueue method to check is other methods work as size, dequeue, peek
+STEP 24: To empty queue I added 1 element by enqueue method to check is other methods work as size, dequeue, peek.
+  
+STEP 25: After adding element to queue, I reasked the system is queue is empty or not by isEmpty method, and answer is "false", because queue has an element.
