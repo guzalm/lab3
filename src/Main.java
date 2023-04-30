@@ -6,8 +6,8 @@ public class Main {
         //Adding elements to check other methods
         queue.enqueue(1.0);
         //Check the size after adding element
-        System.out.println(queue.isEmpty());
-
+        System.out.println(queue.isEmpty());//prints "false"
+        System.out.println(queue.size());//prints 1;
 
 
     }
