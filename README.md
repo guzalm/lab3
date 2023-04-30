@@ -57,4 +57,6 @@ STEP 27: I added second element which is 2, and after used peek() method to chec
   
 STEP 28: To check dequeue method we used it and removed the first element from queue. To see the result, we also used peek() method and saw that second element is on the top now, because first was removed.
 
-STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything
+STEP 29: Started to check is stack is empty by method isEmpty(). It prints true, because we did not add anything.
+  
+STEP 30: Here I check two methods push() and size(). Firstly, I added 4 elements to stack and checked the size. It prints 4, what says that methods work.
