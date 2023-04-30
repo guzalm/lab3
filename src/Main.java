@@ -16,6 +16,11 @@ public class Main {
         queue.dequeue(1);
         System.out.println(queue.peek());
 
+        //Start checking stack
+        System.out.println("Start checking STACK:");
+        MyLinkedListStack<Double> stack = new MyLinkedListStack<>();
+        System.out.println("Is STACK empty? " +stack.isEmpty());//prints true
+
 
     }
 }
