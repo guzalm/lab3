@@ -50,3 +50,5 @@ STEP 23: In main I started checking methods of MyLinkedListQueue class. First on
 STEP 24: To empty queue I added 1 element by enqueue method to check is other methods work as size, dequeue, peek.
   
 STEP 25: After adding element to queue, I reasked the system is queue is empty or not by isEmpty method, and answer is "false", because queue has an element.
+  
+STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1.
