@@ -28,6 +28,9 @@ public class Main {
         //Checking size after adding
         System.out.println(stack.size());//print 4
 
+        //Return the top element of the stack
+        System.out.println("The top element: "+stack.peek());
+
 
     }
 }
