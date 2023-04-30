@@ -46,3 +46,5 @@ In the case of the MyLinkedList class, the size() method simply returns the size
 STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable "queue".
 
 STEP 23: In main I started checking methods of MyLinkedListQueue class. First one is "isEmpty" method. When we check is queue isEmpty, system prints "true" message, because we did not add anything to our queue.
+  
+STEP 24: To empty queue I added 3 elements by enqueue method to check is other methods work as size, dequeue, peek
