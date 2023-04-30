@@ -42,3 +42,5 @@ STEP 20: Then I implemented the size method that returns the number of elements 
   
 STEP 21:The size() method is a common method found in many data structures, including linked lists. It is used to return the number of elements currently stored in the data structure.
 In the case of the MyLinkedList class, the size() method simply returns the size instance variable, which keeps track of the number of elements currently stored in the linked list.
+
+STEP 22: To my project I added Main class to check other 2 created classes. First of all, I want to start with MyLinkedListQueue, I declared new variable "queue".
