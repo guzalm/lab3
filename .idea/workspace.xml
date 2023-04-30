@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9038c2ce-4ec4-4d79-86bb-807a899b0b55" name="Changes" comment="STEP 27: I added second element which is 2, and after used peek() method to check which element is in the top. System prints 1, because due to queue and LILO, first added element is in the top.">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <workItem from="1682438487570" duration="742000" />
       <workItem from="1682685352185" duration="3648000" />
       <workItem from="1682751993153" duration="3806000" />
-      <workItem from="1682867850123" duration="1998000" />
+      <workItem from="1682867850123" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="1.Created new class named MyLinkedListStack for the MyLinkedList implementation">
       <created>1682441149475</created>
@@ -248,14 +247,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682869394964</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="STEP 27: I added second element which is 2, and after used peek() method to check which element is in the top. System prints 1, because due to queue and LILO, first added element is in the top.">
+      <created>1682870111238</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1682870111238</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.Created new class named MyLinkedListStack for the MyLinkedList implementation" />
     <MESSAGE value="2.Here you can see that I added necessary class: java.util.EmptyStackException for the stack exceptions" />
     <MESSAGE value="3.I declared an instance variable &quot;list&quot;" />
     <MESSAGE value="4.There was created a constructor for the class and initialize the instance variable &quot;list&quot;&#10;inside MyLinkedListStack() by using &quot;new&quot; operator." />
@@ -280,6 +285,7 @@
     <MESSAGE value="STEP 24: To empty queue I added 3 elements by enqueue method to check is other methods work as size, dequeue, peek" />
     <MESSAGE value="STEP 25: After adding element to queue, I reasked the system is queue is empty or not by isEmpty method, and answer is &quot;false&quot;, because queue has an element." />
     <MESSAGE value="STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="STEP 26: The size method also works, because after adding one element, it prints that size of queue is 1." />
+    <MESSAGE value="STEP 27: I added second element which is 2, and after used peek() method to check which element is in the top. System prints 1, because due to queue and LILO, first added element is in the top." />
+    <option name="LAST_COMMIT_MESSAGE" value="STEP 27: I added second element which is 2, and after used peek() method to check which element is in the top. System prints 1, because due to queue and LILO, first added element is in the top." />
   </component>
 </project>

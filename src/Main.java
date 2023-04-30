@@ -12,6 +12,9 @@ public class Main {
         queue.enqueue(2.0);
         //Shows element in the top
         System.out.println(queue.peek());
+        //Remove first element and check which will be on the top
+        queue.dequeue(1);
+        System.out.println(queue.peek());
 
 
     }
